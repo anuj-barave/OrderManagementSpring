@@ -13,6 +13,7 @@ public class CustomerResponse {
     private String name;
     private String address;
     private String phone;
+    private String test;
 
     @JsonCreator
     public CustomerResponse(long id, String name, String address, String phone) {
