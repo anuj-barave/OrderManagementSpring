@@ -15,7 +15,7 @@ public class CustomerResponse {
     private String phone;
     private String wasd;
     private String test;
-    private String wasd;
+    private String we;
 
     @JsonCreator
     public CustomerResponse(long id, String name, String address, String phone) {
