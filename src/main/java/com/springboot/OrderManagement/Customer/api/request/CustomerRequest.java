@@ -11,6 +11,7 @@ public class CustomerRequest {
     private String name;
     private String address;
     private String phone;
+    private String test;
 
     @JsonCreator
     public CustomerRequest(long id, String name, String address, String phone) {
