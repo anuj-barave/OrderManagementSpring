@@ -13,6 +13,7 @@ public class CustomerResponse {
     private String name;
     private String address;
     private String phone;
+    private String wasd;
     private String test;
     private String wasd;
 
